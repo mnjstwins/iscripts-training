@@ -1,6 +1,6 @@
 ### Getting Started
 
-This first tutorial will be using the `template.inow.js` file to explain the basics of the scripts.
+This first tutorial will be using the [`template.inow.js`](scripts/template.inow.js) file to explain the basics of the scripts.
 
 This is generally how Perceptive shows their initial script for running in Workflow. I have made a few minor changes to their format for simplicity.
 
