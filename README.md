@@ -14,4 +14,4 @@ Because this tutorial is about iScripts and iScripts are based on JavaScript I w
 
 ### Next Steps
 
-From here you should start with the Introduction
+From here you should start with the [Introduction](Introduction.md)
