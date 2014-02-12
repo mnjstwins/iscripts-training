@@ -11,3 +11,7 @@ Below the general information about the script there is a summary for giving an 
 Past that section of comments are the global definitions starting with the [`#include`](scripts/template.inow.js#LC21) which is including scripts that come in the STL Library for ImageNow. In this script there is only one `#include` however you can have many different includes.  
 
 Below the includes in the configuration section are the global definitions to the Logging variables, the first one is [`#define LOG_TO_FILE`](scripts/template.inow.js#LC24) this is a boolean variable (`true` or `false`) that defines if the debugging statements in the code go to the log file or if they go to the `stdout`, standard output, which would only be used if you were running the script in INTool.
+
+The [last section](scripts/template.inow.js#LC31) before you get into the main function is where you declare the global variables. There is currently one variable listed there, the `debug` variable. The debug variable will be used later, it is helpful in debugging code by logging results of variables or other key points in your script to a file in the `inserver6\log` directory.
+
+The [main function](scripts/template.inow.js#LC34) is a required function that gets called when the script is called in ImageNow.
