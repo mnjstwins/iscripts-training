@@ -15,3 +15,18 @@ Below the includes is the configuration section. This is where the global defini
 The [last section](scripts/template.inow.js#LC31) before you get into the main function is where you declare the global variables. There is currently one variable listed there, the `debug` variable. The debug variable will be used later, it is helpful in debugging code by logging results of variables or other key points in your script to a file in the `inserver6\log` directory.
 
 The [main function](scripts/template.inow.js#LC34) is a required function that gets called when the script is called in ImageNow. The main function has no parameters. However, there are global variables that get defined by ImageNow depending on how the script was called in the system.
+### Debug Level Definitions
+
+* 0 - No output
+* 1 - `CRITICAL` output
+* 2 - `ERROR` output
+* 3 - `WARNING` output
+* 4 - `INFO` output
+* 5 - `DEBUG` output
+
+### Execution Method Definitions
+
+* `WORKFLOW` - Run from a workflow queue as (inbound, within queue, outbound) action
+* `INTOOL` - Run from INTool (the command line tool on the server)
+* `TASK` - Run from tasks
+* `EFORM` - Run as an eForm action
